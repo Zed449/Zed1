@@ -1,0 +1,91 @@
+
+body{
+    background-image:linear-gradient(to right, rgba(255, 255, 255, 0), rgb(11, 65, 29));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;      
+        
+
+
+}
+div{
+    padding: 15px;
+    margin-left:-10px;
+    max-height:600px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+p{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Name{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+#Password{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+#Email{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.gender{
+    margin-top: 10px;
+    
+}
+.checkbox{
+    margin-top: 10px;
+    margin-left: -12px;
+}
+#reset{
+    width: 48%;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    background-color: aquamarine;   
+}
+#submit{
+    width: 48%;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: aquamarine; 
+}
+
